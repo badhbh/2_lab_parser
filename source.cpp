@@ -7,8 +7,8 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	string chc, nom, v1, v2, name, val;
-	string chc1, nom1, name1, val1;
-	string chc2, nom2, name2, val2;
+	string chc1 = "RUB", nom1 ="1", name1 = "Российский Рубль", val1 = "1,0";
+    	string chc2 = "RUB", nom2 ="1", name2 = "Российский Рубль", val2 = "1,0";
 	string current_value, current_name;
 	xmlpp::TextReader reader("xml.xml");
 
