@@ -79,11 +79,11 @@ int main(int argc, char* argv[])
 	float nom11 = stof(nom1);
 	float nom22 = stof(nom2);
 
-	if (argv[2] == "RUB")
+	if (v1 == "RUB")
 	{
 		cout << (1/(val22 / nom22)) << endl;
 	}
-	else if(argv[3] == "RUB")
+	else if(v2 == "RUB")
 	{ 
 		cout << (val11 / nom11) << endl;
 	}
